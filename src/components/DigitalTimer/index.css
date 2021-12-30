@@ -1,0 +1,144 @@
+.MainPage {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+.TimerBackground {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TimerDetails {
+  background-color: white;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.TimerHeading {
+  text-align: center;
+}
+.TimeHeading {
+  font-size: 25px;
+  font-weight: bold;
+  color: aqua;
+  margin: 0px;
+}
+.timerStatus {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+.TimerPlayPauseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ButtonItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  border: 0px;
+}
+.PlayPauseImg {
+  height: 50px;
+  width: 50px;
+}
+.setTimerText {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+  align-self: center;
+}
+.updateTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.UpdateTimeButton {
+  background-color: transparent;
+  border: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.UpdateTimeText {
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+.Mobilecontainer {
+  display: flex;
+  flex-direction: column;
+}
+.mobileContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .MainPage {
+    align-items: center;
+    margin: 0% 20%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px 0px;
+  }
+  .Mobilecontainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .TimerBackground {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobileContainer2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+  }
+  .UpdateTimeText {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+  }
+  .TimerDetails {
+    margin-left: 50px;
+    background-color: white;
+    height: 155px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
